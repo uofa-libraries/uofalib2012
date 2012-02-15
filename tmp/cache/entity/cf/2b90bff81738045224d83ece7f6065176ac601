@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
+	
+	<title>Welcome to the University of Alberta Libraries</title>
+  
+	<!-- Included CSS Files -->
+	<link rel="stylesheet" href="/css/foundation.css">
+	<link rel="stylesheet" href="/css/app.css">
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="/css/ie.css">
+	<![endif]-->
+
+	
+	<!-- IE Fix for HTML5 Tags -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+	<!-- container -->
+	<div class="container">
+		<div class="row hide-on-phones">
+			<div class="twelve columns">
+			  <ul class="top-nav">
+	        		<li><a href="http://webapps.srv.ualberta.ca/search/">Find a Person</a></li>
+	            	<li><a href="https://www.myonecard.ualberta.ca/">ONEcard</a></li>
+	            	<li><a href="https://www.beartracks.ualberta.ca/">Bear Tracks</a></li>
+					<li><a href="https://webmail.ualberta.ca/">Webmail</a></li>
+	            	<li><a href="http://apps.ualberta.ca/">Apps@UAlberta</a></li>
+	            	<li><a href="https://eclass.srv.ualberta.ca/portal/" id="last">eClass</a></li>
+
+	        	</ul>
+			</div>
+		  </div>
+          <div class="row green">
+			<div class="twelve columns ">
+				<div class="five columns">
+					<a href="index.html"><img src="/system/assets/5/original/uofalib-logo.png" class="logo" alt="uofalib-logo" /></a>
+				</div>
+				<div class="seven columns">
+				<ul class="home-nav">
+					<li class="ask"><a href="http://www.ualberta.ca">Ask Us</a>
+						<ul class="hide-on-phones">
+							<li><a href="#">chat</a></li>
+							<li><a href="#">email</a></li>
+							<li><a href="#">phone</a></li>
+							<li><a href="#">visit</a></li>
+						</ul>
+					</li>
+					<li><a href="http://www.ualberta.ca">UofA Home</a></li>
+					<li><a href="http://www.library.ualberta.ca/francais/">version francaise</a></li>
+				</ul>
+				</div>
+			</div>
+		  </div>
+		<div class="row">
+			<div class="twelve columns">
+				<ul class="main-nav">
+			        <li><a href="http://webapps.srv.ualberta.ca/search/">Databases</a></li>
+			        <li><a href="https://www.myonecard.ualberta.ca/">Ejournals</a></li>
+			         <li><a href="https://www.beartracks.ualberta.ca/">Our Libraries</a></li>	
+			    	<li><a href="https://www.beartracks.ualberta.ca/">My Account</a></li>
+			 		<li><a href="https://www.beartracks.ualberta.ca/" id="last">Library Hours</a></li>	
+			     </ul>
+			</div>
+		  </div>
+		<div class="row top-margin">
+			<div class="seven columns">
+				<div class="panel">
+					<h2>Search the <span>Catalogue</span></h2>
+					<div class="row">
+						<div class="five columns">
+							<form class="nice">
+								<input type="text" class="oversize input-text fl">
+							</div>
+							<div class="two columns">
+								<button type="submit">Search</button>
+							</div>	
+						</form>
+						<div class="four columns">
+							<a href="http://ualweb.library.ualberta.ca/uhtbin/cgisirsi/x/0/0/57/49?user_id=WUAARCHIVE" class="advanced">advanced search</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="twelve columns">
+							Or search with :: NEOS :: WORLDCAT :: EBCSO
+						</div>
+					</div>
+				</div>
+					<div class="panel">
+						<h2>Library <span>Guides</span> &amp; <span>Services</span></h2>	
+							<div class="row">
+								<div class="six columns">
+									<ul class="subjects">
+										<li><a href="http://guides.library.ualberta.ca/index.php">Subject/Course Guides</a></li>
+										<li><a href="http://www.library.ualberta.ca/screencast/">Tutorials</a></li>
+										
+									</ul>
+								</div>
+								<div class="six columns">
+									<ul class="subjects2">
+										<li><a href="http://www.library.ualberta.ca/services/howdoi/">How Do I...?</a></li>
+										<li><a href="/services/">Services A-Z</a></li>
+								
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="five columns">
+					<div class="panel">
+						<h2 class="sub-head">Browse by <span>Subject</span></h2>
+						<div class="row">
+						<div class="six columns">
+							<ul class="subjects">
+												<li><a href="http://guides.library.ualberta.ca/ALES">Agricultural, Life &amp;<br/>Environmental Sciences</a></li>
+												<li><a href="http://guides.library.ualberta.ca/arts_guides">Arts</a></li>
+												<li><a href="http://guides.library.ualberta.ca/business-home">Business</a></li>
+												<li><a href="http://guides.library.ualberta.ca/education_home">Education</a></li>
+												<li><a href="http://guides.library.ualberta.ca/engineering">Engineering</a></li>
+												</ul>
+												</div>
+													<div class="six columns">
+												<ul class="subjects2">
+												<li><a href="http://guides.library.ualberta.ca/healthsciences">Health Sciences</a></li>
+												<li><a href="http://guides.library.ualberta.ca/law">Law</a></li>
+												<li><a href="http://guides.library.ualberta.ca/per">Physical Education &amp;<br/>Recreation</a></li>
+												<li><a href="http://guides.library.ualberta.ca/science">Science</a></li>
+												<li><a href="http://www.library.ualberta.ca/browse" class="last">view all subjects</a></li>
+											</ul>
+											</div>
+					</div>
+					</div>	
+				</div>
+				
+			  </div>
+		  <div class="row">
+	    	<div class="twelve columns padded">		
+              <div id="featured"> 
+      <img src="/system/assets/3/original/1.jpg" alt="1" />
+<img src="/system/assets/4/original/2.jpg" alt="2" />
+              </div>
+</div>
+</div>
+		
+				<div class="row">
+					<div class="twelve columns">
+						<div class="panel">
+							
+						</div>
+					</div>
+					
+				</div>
+				
+				
+			</div>
+
+			
+		</div>
+		
+	</div>
+	<!-- container -->
+	
+	
+
+
+	<!-- Included JS Files -->
+	<script src="/js/foundation.js"></script>
+	<script src="/js/app.js"></script>
+	
+</body>
+</html>
